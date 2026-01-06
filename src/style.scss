@@ -4,15 +4,16 @@ a.card {
   color: inherit;
   text-decoration: inherit;
 }
+
 a.card button {
-    z-index: 1;
+  z-index: 1;
 }
-  
+
 
 /* Show it is fixed to the top */
 body {
-    min-height: 75rem;
-    padding-top: 4.5rem;
+  min-height: 75rem;
+  padding-top: 4.5rem;
 }
 
 .bi {
