@@ -1,5 +1,7 @@
-import { defineConfig } from 'vite'
-
-export default defineConfig({
-    base: import.meta.env.VITE_BASE || "/",
+import { defineConfig, loadEnv } from 'vite'
+export default defineConfig(({ mode }) => {
+    const env = loadEnv(mode, process.cwd(), '')
+    return {
+        base: env.VITE_BASE || "/",
+    }
 })
