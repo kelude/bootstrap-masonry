@@ -10,7 +10,6 @@ export default defineConfig(({ mode }) => {
                 scss: {
                     silenceDeprecations: [
                         'import',
-                        'mixed-decls',
                         'color-functions',
                         'global-builtin',
                         'if-function',
